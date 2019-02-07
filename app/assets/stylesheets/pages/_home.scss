@@ -25,7 +25,7 @@ table {
 }
 
 .section-padding {
-  padding: 100px 0px 60px 0px;
+  padding: 40px 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-position: 0px -80px;
   min-height: 650px;
+  margin-bottom: 20px;
 }
 
 .bg-color {
@@ -143,44 +144,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 25px 0px;
 }
 
-.btn-submit {
-  background: #FFD34E;
-  border: 0px;
-  display: inline-block;
-  font-size: 16px;
-  text-transform: uppercase;
-  padding: 10px 40px;
-  font-weight: normal;
-  border-radius: 0px;
-  letter-spacing: 1px;
-  color: #333;
-  position: relative;
-  overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  margin-top: 25px;
-  border: 2px solid #FFD34E;
-}
-
-.btn-submit:hover {
-  background: #fff;
-}
-
 /****/
 
-#cta-1 {
-  padding: 40px 0px;
-}
-
-.cta-info {
+.quote-info {
   border: 5px solid #97BCC1;
-  padding: 40px 0px;
+  padding: 0px 0px 20px 0px;
 }
 
-.cta-info h3 {
+.quote-info h3 {
   font-size: 24px;
 }
 
@@ -414,7 +385,7 @@ a, a:hover {
   padding-right: 10px;
 }
 
-.link-dec, .link-dec:hover {
+.link-email, .link-email:hover {
   color: #000;
 }
 
@@ -422,7 +393,7 @@ a, a:hover {
 
 @media (min-width: 451px) and (max-width: 900px) {
   .section-title {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 }
 
@@ -455,7 +426,7 @@ a, a:hover {
     padding-right: 15px;
   }
   .section-title {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .cta-txt h3 {
     font-size: 28px;

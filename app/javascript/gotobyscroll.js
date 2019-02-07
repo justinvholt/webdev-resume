@@ -3,5 +3,5 @@ $(document).ready(function(){
 });
 
 function goToByScroll(id){
-  $('html,body').animate({scrollTop: $(id).offset().top}, 1500);
+  $('html,body').animate({scrollTop: $(id).offset().top - 55}, 1500);
 }
