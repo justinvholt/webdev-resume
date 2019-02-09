@@ -165,6 +165,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f8f8f8;
 }
 
+#about-icon-container{
+  display: flex;
+  justify-content: space-between;
+}
+
 .head-title {
   color: #2b2b2b;
   font-size: 32px;
@@ -176,6 +181,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 34px;
   height: 3px;
   display: inline-block;
+}
+
+.center {
+  text-align: center;
 }
 
 .section-title:hover .botm-line {
@@ -193,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #888;
+  color: #1F2335;
 }
 
 .icon {
@@ -245,14 +254,14 @@ h3.txt-tl {
   display: block;
 }
 
-.cta-txt h3 {
+.quote-txt h3 {
   font-size: 32px;
   margin-bottom: 10px;
   font-weight: 700;
   color: #fff;
 }
 
-.cta-txt p {
+.quote-txt p {
   color: #fff;
 }
 
@@ -283,43 +292,13 @@ h3.txt-tl {
   font-size: 13px;
 }
 
-#sendmessage {
-  color: green;
-  border: 1px solid green;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#sendmessage.show, #errormessage.show, .show {
-  display: block;
-}
-
 .black {
   color: #000 !important;
   font-weight: 600;
 }
 
-.btn-send {
-  border-radius: 0px;
-  color: #000;
-  background-color: #FFD34E;
-}
-
 a, a:hover {
-  color: #FFD34E;
+  color: #469AE0;
 }
 
 .cont-title {
@@ -327,25 +306,8 @@ a, a:hover {
   padding: 15px 0px;
 }
 
-.location-info p span {
-  display: inline-block;
-}
-
-.location-info p span {
-  width: 40px;
-  font-size: 24px;
-  color: #666;
-  vertical-align: middle;
-}
-
-.location-info p {
-  margin-bottom: 5px;
-}
-
-.location-info p {
-  font-size: 18px;
-  line-height: 32px;
-  color: #000;
+.blue-icon {
+  color: #469AE0;
 }
 
 .contact-icon-container {
@@ -428,7 +390,7 @@ a, a:hover {
   .section-title {
     margin-bottom: 10px;
   }
-  .cta-txt h3 {
+  .quote-txt h3 {
     font-size: 28px;
   }
   body {

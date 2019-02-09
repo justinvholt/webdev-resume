@@ -55,7 +55,7 @@
           <h2 class="head-title">About</h2>
           <hr class="botm-line">
           <%= image_tag("JVH_TGD.jpg", height: "100%", width: "100%", class: "img-responsive col-offset-xs-3") %>
-          <p class="sec-para col-offset-xs-3">"We're Here About a Job."</p>
+          <p class="center">"Here About a Job."</p>
         </div>
       </div>
       <div class="col-md-8">
@@ -70,17 +70,12 @@
             <h3 class="txt-tl">Skills</h3>
             <p class="txt-para">HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, Git, Github, Heroku and Ruby on Rails.</p>
 
-
-
-            <div class="pull-left">
-              <a href="#bio" target="_blank"><i class="fas fa-book"></i> To Read My Full Bio</a>
-            </div>
-            <div class="pull-right">
+            <div id="about-icon-container">
+              <a href="#bio" target="_blank"><i class="fas fa-book"></i> Bio</a>
+              <a href="https://github.com/justinvholt" target="_blank"><i class="fab  fa-github"></i> Github</a>
+              <a href="https://www.linkedin.com/in/velander/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
               <a href="#" target="_blank"><i class="far fa-file-pdf"></i> Resume (.pdf)</a>
             </div>
-
-
-
           </div>
         </div>
       </div>
@@ -105,32 +100,40 @@
 <section class="section-padding wow fadeInUp delay-02s" id="portfolio">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 col-sm-12">
+      <div class="col-md-2 col-sm-12">
         <div class="section-title">
           <h2 class="head-title">Portfolio</h2>
           <hr class="botm-line">
-          <p class="sec-para">The apps I created or worked on with a team.</p>
+          <p class="sec-para"></p>
         </div>
       </div>
-      <div class="col-md-9 col-sm-12">
-        <div class="col-md-6 col-sm-6 padding-right-zero">
+      <div class="col-md-10 col-sm-12">
+        <div class="col-sm-4 padding-right-zero">
           <div class="portfolio-box design">
-            <%= image_tag("chronos.png", class: "img-responsive") %>
+            <%= link_to(image_tag("chronos.png", class: "img-responsive"), "http://www.chronos-laytime.com/", target: "_blank") %>
+            <h3 class="txt-tl">Chronos</h3>
+            <p class="txt-para">Fully automated laytime management system.</p>
           </div>
         </div>
-        <div class="col-md-6 col-sm-6 padding-right-zero">
+        <div class="col-sm-4 padding-right-zero">
           <div class="portfolio-box design">
-            <%= image_tag("chronos.png", class: "img-responsive") %>
+            <%= link_to(image_tag("dopcast.png", class: "img-responsive"), "http://www.dopcast.co/", target: "_blank") %>
+            <h3 class="txt-tl">Dopcast</h3>
+            <p class="txt-para">Comprehensive podcast search engine.</p>
           </div>
         </div>
-        <div class="col-md-6 col-sm-6 padding-right-zero">
+        <div class="col-sm-4 padding-right-zero">
           <div class="portfolio-box design">
-            <%= image_tag("SplurtyAbroad.png", class: "img-responsive") %>
+            <%= link_to(image_tag("splurtyAbroad.png", class: "img-responsive"), "https://splurty-justin-holt.herokuapp.com/", target: "_blank") %>
+            <h3 class="txt-tl">SplurtyAbroad</h3>
+            <p class="txt-para">Random travel quote generator.</p>
           </div>
         </div>
-        <div class="col-md-6 col-sm-6 padding-right-zero">
+        <div class="col-sm-4 padding-right-zero">
           <div class="portfolio-box design">
-            <%= image_tag("nomster.png", class: "img-responsive") %>
+            <%= link_to(image_tag("nomster.png", class: "img-responsive"), "https://nomster-justin-holt.herokuapp.com/", target: "_blank") %>
+            <h3 class="txt-tl">Nomster</h3>
+            <p class="txt-para">Favorite restaurants around the world.</p>
           </div>
         </div>
       </div>
@@ -155,27 +158,19 @@
 <section class="section-padding wow fadeInUp delay-05s" id="contact">
   <div class="container">
     <div class="row white">
-      <div class="col-md-8 col-sm-12">
+      <div class="col-sm-12">
         <div class="section-title">
           <h2 class="head-title black">Contact</h2>
-          <hr class="botm-line">
-          <p class="sec-para">My primary hub is Chicago, IL, USA, and I'm always open to networking in the Windy City. Additionally, I'm eagerly seeking web development opportunities that will allow me to live elsewhere and/or work from anywhere. Short-term, long-term or freelance -- I'm open to all suggestions.</p>
-        </div>
-      </div>
-      <div class="col-md-12 col-sm-12">
-<!--         <div class="col-md-4 col-sm-6" style="padding-left:0px;">
-         </div> -->
-        <div class="col-md-6 col-sm-6">
-          <!-- <h3 class="cont-title">Contact Me</h3> -->
-          <div class="location-info">
-<!--             <p class="white"><span aria-hidden="true" class="fa fa-map-marker"></span>Address?</p> -->
-            <p class="white"><span aria-hidden="true" class="fa fa-phone"></span>+1 312 five six eight 6632</p>
-            <p class="white"><span aria-hidden="true" class="fa fa-envelope"></span><a href="" class="link-email">hi@justinvholt.com</a></p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="contact-icon-container hidden-md hidden-sm hidden-xs">
-            <span aria-hidden="true" class="fa fa-envelope-o"></span>
+            <hr class="botm-line">
+            <div class="section-title">
+              <div class="col-md-7 col-sm-12">
+                <p class="sec-para">My primary hub is Chicago, IL, USA, and I'm always open to networking in the Windy City. Additionally, I'm eagerly seeking web development opportunities that will allow me to live elsewhere and/or work from anywhere. Short-term, long-term or freelance -- I'm open to all suggestions.</p>
+              </div>
+            </div>
+            <div class="col-md-5 col-sm-12">
+              <p><i class="blue-icon fa fa-phone"></i> +1 312 five six eight 6632</p>
+              <p><i class="blue-icon fa fa-envelope"></i><a href="" class="link-email"> hi@justinvholt.com</a></p>
+            </div>
           </div>
         </div>
       </div>
@@ -190,7 +185,7 @@
     <div class="row">
       <div class="col-sm-7 footer-developer">
         <div class="credits">
-          Designed off Route 51 in Madison, WI, USA by JVH.
+          Designed near Route 51 in Madison, WI, USA by JVH.
         </div>
       </div>
       <div class="col-sm-5 footer-social">
