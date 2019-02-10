@@ -74,7 +74,7 @@
               <a href="#bio" target="_blank"><i class="fas fa-book"></i> Bio</a>
               <a href="https://github.com/justinvholt" target="_blank"><i class="fab  fa-github"></i> Github</a>
               <a href="https://www.linkedin.com/in/velander/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
-              <a href="#" target="_blank"><i class="far fa-file-pdf"></i> Resume (.pdf)</a>
+              <%= link_to ('<i class="far fa-file-pdf"></i> Resume (.pdf)').html_safe, asset_path("JVHResume_201902.pdf", skip_pipeline: true), target: :_blank %>
             </div>
           </div>
         </div>
@@ -163,11 +163,8 @@
           <h2 class="head-title black">Contact</h2>
             <hr class="botm-line">
             <div class="section-title">
-              <div class="col-md-7 col-sm-12">
-                <p class="sec-para">My primary hub is Chicago, IL, USA, and I'm always open to networking in the Windy City. Additionally, I'm eagerly seeking web development opportunities that will allow me to live elsewhere and/or work from anywhere. Short-term, long-term or freelance -- I'm open to all suggestions.</p>
-              </div>
-            </div>
             <div class="col-md-5 col-sm-12">
+              <p class="sec-para">My primary hub is Chicago, IL, USA, and I'm always open to networking in the Windy City. Additionally, I'm eagerly seeking web development opportunities that will allow me to live elsewhere and/or work from anywhere. Short-term, long-term or freelance -- I'm open to all suggestions.</p>
               <p><i class="blue-icon fa fa-phone"></i> +1 312 five six eight 6632</p>
               <p><i class="blue-icon fa fa-envelope"></i><a href="" class="link-email"> hi@justinvholt.com</a></p>
             </div>
