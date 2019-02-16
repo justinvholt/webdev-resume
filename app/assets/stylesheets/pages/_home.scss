@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-header {
-  background: image-url('bg00.JPG') no-repeat;
+  background: image-url('bg-nv.JPG') no-repeat;
   background-size: cover;
   background-position: 0px -80px;
   min-height: 650px;
@@ -49,6 +49,19 @@ h1, h2, h3, h4, h5, h6 {
 .bg-color {
   background-color: RGBA(0, 0, 0, 0.41);
   min-height: 650px;
+}
+
+.bio-header {
+  background: image-url('bg-bio.png') no-repeat;
+  background-size: cover;
+  background-position: 0px -80px;
+  min-height: 500px;
+  margin-bottom: 20px;
+}
+
+.bg-bio-color {
+  background-color: RGBA(0, 0, 0, 0.41);
+  min-height: 500px;
 }
 
 .nav>li>a {
@@ -93,7 +106,12 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   .main-header {
-    background: image-url('bg00.JPG') no-repeat;
+    background: image-url('bg-nv.JPG') no-repeat;
+    background-size: cover;
+    min-height: 650px;
+  }
+  .bio-header {
+    background: image-url('bg-bio.png') no-repeat;
     background-size: cover;
     min-height: 650px;
   }
