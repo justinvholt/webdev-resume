@@ -1,19 +1,15 @@
-class PagesController < ApplicationController
-  def home
-    @contact = Page.new(params[:page])
-  end
-
-  def show
-    render params[:page]
+class HomeController < ApplicationController
+  def index
+    @contact = Home.new(params[:home])
   end
 
   def create
-    @contact = Page.new(params[:page])
+    @contact = Home.new(params[:home])
     @contact.request = request
     respond_to do |format|
       if @contact.deliver
         # re-initialize Home object for cleared form
-        @contact = Page.new
+        @contact = Home.new
         format.html { render 'index' }
         format.js   { flash.now[:success] = @message = "Thank you for your message. I'll get back to you soon!" }
       else

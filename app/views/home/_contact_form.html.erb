@@ -1,0 +1,20 @@
+<%= simple_form_for @contact, url: home_index_path, onsubmit: "resetForm();", remote: true do |f| %>
+
+  <%= f.input :name, placeholder: "Name", required: true, label: false, class: "form-field" %>
+
+  <%= f.input :email, placeholder: "Email", required: true, label: false, class: "form-field" %>
+
+  <%= f.input :subject, placeholder: "Subject", required: true, label: false, class: "form-field" %>
+
+  <%= f.input :message, as: :text, input_html: { rows: 6 }, placeholder: "Send a message to Justin.", required: true, label: false, class: "form-field" %>
+
+  <div class= "hidden">
+    <%= f.input :nickname, hint: 'Leave this field blank!', class: "form-field" %>
+  </div>
+
+  <%= f.submit 'Send Message', class: 'btn btn-primary' %>
+<% end %>
+
+<div class="col-md-6" id="flash-message">
+  <%= render 'flash' %>
+</div>
