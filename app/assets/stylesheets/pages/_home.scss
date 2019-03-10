@@ -334,6 +334,10 @@ h3.txt-tl {
   display: block;
 }
 
+#flash-message {
+  margin-bottom: 15px;
+}
+
 .black {
   color: #000 !important;
   font-weight: 600;
@@ -355,42 +359,6 @@ a, a:hover {
 
 .cont-title {
   font-size: 24px;
-  padding-bottom: 15px;
-}
-
-.location-info p span {
-  display: inline-block;
-}
-
-.location-info p span {
-  width: 40px;
-  font-size: 24px;
-  color: #666;
-  vertical-align: middle;
-}
-
-.location-info p {
-  margin-bottom: 5px;
-}
-
-.location-info p {
-  font-size: 18px;
-  line-height: 32px;
-  color: #000;
-}
-
-.contact-icon-container {
-  position: absolute;
-  top: -38px;
-  right: 0;
-  padding-right: 20px;
-  font-size: 320px;
-  color: #555;
-  line-height: 300px;
-  -ms-transform: rotate(20deg);
-  -moz-transform: rotate(20deg);
-  -webkit-transform: rotate(20deg);
-  transform: rotate(20deg);
 }
 
 /****/
@@ -468,4 +436,40 @@ a, a:hover {
   h3.txt-tl {
     font-size: 20px;
   }
+}
+
+.hidden {
+  display: none;
+}
+
+.alert-error {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+font-size: .8em;
+}
+
+.alert-alert {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+font-size: .8em;
+}
+
+.alert-success {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: center;
+font-size: .8em;
+}
+
+.alert-notice {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+font-size: .8em;
 }

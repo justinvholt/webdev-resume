@@ -1,94 +1,95 @@
-<!-- header -->
-<header class="bio-header" id="header">
-  <div class="bg-bio-color">
-    <!--nav-->
-    <nav class="nav navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="col-md-12">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
-                <span class="fa fa-bars"></span>
-              </button>
-            <a href="/" class="navbar-brand">JVH</a>
-          </div>
-          <div class="collapse navbar-collapse navbar-right" id="mynavbar">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#header">Home</a></li>
-              <li><a href="#bio">The Plan</a></li>
-<!--               <li><a href="#resume">Resume</a></li> -->
-            </ul>
+<div class="animsition">
+  <!-- header -->
+  <header class="bio-header" id="header">
+    <div class="bg-bio-color">
+      <!--nav-->
+      <nav class="nav navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="fa fa-bars"></span>
+                </button>
+              <a href="/" class="navbar-brand">JVH</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="mynavbar">
+              <ul class="nav navbar-nav">
+                <li class="active">
+                  <a href="/"
+                    class="animsition-link"
+                    data-animsition-out-class="fade-out-left"
+                    data-animsition-out-duration="2000"
+                  >
+                    Home
+                  </a></li>
+                <li><a href="#bio">The Plan</a></li>
+  <!--               <li><a href="#resume">Resume</a></li> -->
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
-    <!--/ nav-->
-  </div>
-</header>
-<!--/header -->
-
-<!---->
-<section id="quote">
-  <div class="container">
-    <div class="row">
-      <div class="quote-info text-center">
-        <h3><span class="dec-tec">“</span>Sometimes it's necessary to go a long distance out of the way in order to come back a short distance correctly.<span class="dec-tec">”</span><p>- Edward Albee</p></h3>
-      </div>
+      </nav>
+      <!--/ nav-->
     </div>
-  </div>
-</section>
-<!---->
+  </header>
+  <!--/header -->
 
-<!-- about -->
-<section id="bio" class="section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-2 wow fadeInLeft delay-05s">
-        <div class="section-title">
-          <h2 class="head-title">The Plan</h2>
-          <hr class="botm-line">
-        </div>
-      </div>
-      <div class="col-md-10">
-
-        <div class="col-md-12 wow fadeInRight delay-02s">
-          <div class="icon">
-<!--             <i class="fa fa-paint-brush"></i> -->
-          </div>
-          <div class="icon-text">
-            <%= render "essay" %>
-          </div>
+  <!---->
+  <section id="quote">
+    <div class="container">
+      <div class="row">
+        <div class="quote-info text-center">
+          <h3><span class="dec-tec">“</span>Sometimes it's necessary to go a long distance out of the way in order to come back a short distance correctly.<span class="dec-tec">”</span><p>- Edward Albee</p></h3>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- /about -->
+  </section>
+  <!---->
 
-<!-- footer -->
-<footer class="" id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-7 footer-developer">
-        <div class="credits">
-          Designed near Route 51 in Madison, WI, USA by JVH.
+  <!-- about -->
+  <section id="bio" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 wow fadeInLeft delay-05s">
+          <div class="section-title">
+            <h2 class="head-title">The Plan</h2>
+            <hr class="botm-line">
+          </div>
         </div>
-      </div>
-      <div class="col-sm-5 footer-social">
-        <div class="pull-right hidden-xs hidden-sm">
-          <a href="https://github.com/justinvholt" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/velander/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://www.instagram.com/lifeofvelander/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <div class="col-md-10">
+
+          <div class="col-md-12 wow fadeInRight delay-02s">
+            <div class="icon">
+  <!--             <i class="fa fa-paint-brush"></i> -->
+            </div>
+            <div class="icon-text">
+              <%= render "essay" %>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
-<!-- / footer -->
+  </section>
+  <!-- /about -->
 
-<!--contact ends-->
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/custom.js"></script>
-<script src="contactform/contactform.js"></script>
+  <!-- footer -->
+  <footer class="" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 footer-developer">
+          <div class="credits">
+            Designed near Route 51 in Madison, WI, USA by JVH.
+          </div>
+        </div>
+        <div class="col-sm-5 footer-social">
+          <div class="pull-right hidden-xs hidden-sm">
+            <a href="https://github.com/justinvholt" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/velander/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/lifeofvelander/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /footer -->
+</div>
