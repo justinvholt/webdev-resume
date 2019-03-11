@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
 }
 
+.bio-navbar-default {
+  background: rgba(0, 0, 0, 0.8);
+}
+
 .main-header {
   background: image-url('bg-nv.JPG') no-repeat;
   background-size: cover;
@@ -52,17 +56,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bio-header {
-  background: image-url('bg-bio.png') no-repeat;
-  background-size: cover;
-  background-position: 0px -80px;
-  min-height: 500px;
+  // background: image-url('bg-bio.png') no-repeat;
+  // background-size: cover;
+  // background-position: 0px -80px;
+  height: 125px;
   margin-bottom: 20px;
 }
 
-.bg-bio-color {
-  background-color: RGBA(0, 0, 0, 0.41);
-  min-height: 500px;
-}
+// .bg-bio-color {
+//   background-color: RGBA(0, 0, 0, 0.41);
+//   min-height: 500px;
+// }
 
 .nav>li>a {
   padding: 0px;
@@ -80,6 +84,10 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #469AE0;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -174,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dec-tec {
-  font-size: 34px;
+  font-size: 28px;
 }
 
 /****/
