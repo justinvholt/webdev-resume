@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script><script>new WOW().init();</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/3.4.3/css/animsition.min.css">
 
     <script>
       function fadeInPage() {
@@ -28,7 +27,6 @@
         var fader = document.getElementById('fader');
         fader.classList.remove('fade-in');
       });
-
     </script>
   </head>
 
@@ -39,19 +37,5 @@
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
-
-<!--     <script type="text/javascript">
-      $("#bio-link").click(function () {
-        $("#indexpg").fadeOut(1000,function () {
-          $("body").load("/bio#bio", function () {
-            $(".biopg").fadeIn(1000);
-            $('html,body').animate({scrollTop: $(id).offset().top - 55}, 1500);
-          })
-        });
-
-        return false;
-      });
-    </script> -->
-
   </body>
 </html>
