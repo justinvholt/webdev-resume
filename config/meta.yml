@@ -1,0 +1,7 @@
+# config/meta.yml
+
+meta_product_name: "On the Code Again"
+meta_title: "On the Code Again - Justin Holt, Nomadic Full Stack Developer"
+meta_description: "Justin Velander Holt has spent a number years working on the road in order to save tuition for a coding boot camp. Now he's looking forward to using his new skill set to find new opportunities to work smarter, travel farther and live brighter."
+meta_image: "bg-nv.JPG" # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account"   # required for Twitter Cards

@@ -16,7 +16,6 @@ gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'mail_form'
 gem 'sassc-rails'
 gem 'simple_form'
-gem 'turbolinks-animate'
 gem 'uglifier'
 gem 'webpacker'
 
