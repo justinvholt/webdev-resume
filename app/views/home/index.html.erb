@@ -47,7 +47,8 @@
 <!-- /quote -->
 
 <!-- about -->
-<section id="about" class="section-padding about">
+<p id="about-me"></p>
+<section id="about" class="section-padding">
   <div class="container">
     <div class="row">
       <div class="col-md-4 wow fadeInLeft delay-05s">
@@ -60,9 +61,6 @@
       </div>
       <div class="col-md-8">
         <div class="col-md-12 wow fadeInRight delay-02s">
-          <div class="icon">
-<!--             <i class="fa fa-paint-brush"></i> -->
-          </div>
           <div class="icon-text">
             <h3 class="txt-tl">Quo Imus, or Where <em>Are</em> We Going?</h3>
             <p class="txt-para">I'm a storyteller, globetrotter and junior full stack developer currently striving to enhance my coding skills while living and working on the road. I spent the past five years literally donating my body to science with the goal of paying off my debts and then saving up for a coding boot camp. With that accomplished, I'm now seeking new adventures not only in my travels but also in my work.</p>
@@ -71,16 +69,18 @@
             <p class="txt-para">Ruby, Ruby on Rails, JavaScript, jQuery, HTML, CSS, Bootstrap, SQL, Git, Github and Heroku.</p>
 
             <div id="about-icon-container">
-              <a href="/bio" id="bio-link">
+              <a href="/bio" id="bio-link" class="about-link">
                 <i class="fas fa-book"></i> The Plan
               </a>
-              <a href="https://github.com/justinvholt" target="_blank">
+              <a href="https://github.com/justinvholt" target="_blank" class="about-link">
                 <i class="fab  fa-github"></i> Github
               </a>
-              <a href="https://www.linkedin.com/in/velander/" target="_blank">
+              <a href="https://www.linkedin.com/in/velander/" target="_blank" class="about-link">
                 <i class="fab fa-linkedin-in"></i> LinkedIn
               </a>
+              <div class="about-link">
               <%= link_to ('<i class="far fa-file-pdf"></i> Resume (.pdf)').html_safe, asset_path("JVHResume_201903.pdf", skip_pipeline: true), target: :_blank %>
+              </div>
             </div>
           </div>
         </div>
@@ -208,4 +208,4 @@
     </div>
   </div>
 </footer>
-<!-- / footer -->
+<!-- /footer -->
