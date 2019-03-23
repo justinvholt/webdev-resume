@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
 }
 
-@media (min-width: 451px) and (max-width: 900px) {
+@media (min-width: 200px) and (max-width: 900px) {
   #about-icon-container { flex-wrap: wrap;  }
   .about-link { flex-basis: 100%; }
 }
