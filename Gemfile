@@ -10,7 +10,6 @@ gem 'redis'
 
 gem 'autoprefixer-rails'
 gem "bootstrap-sass", ">= 3.4.1"
-gem 'dotenv-rails', groups: [:development, :test]
 gem 'font-awesome-sass', '~> 5.5.0'
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'mail_form'
