@@ -14,7 +14,7 @@ gem 'font-awesome-sass', '~> 5.5.0'
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'mail_form'
 gem 'sassc-rails'
-gem 'simple_form'
+gem "simple_form", ">= 5.0.0"
 gem 'uglifier'
 gem 'webpacker'
 
